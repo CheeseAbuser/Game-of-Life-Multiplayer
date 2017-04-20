@@ -1,4 +1,6 @@
 function life(widthOfWorld, heightOfWorld, worldArray) {
+	
+	
 	var aliveRedNeighbours;
 	var aliveBlueNeighbours; 
 	var aliveNeighbours;
@@ -6,7 +8,7 @@ function life(widthOfWorld, heightOfWorld, worldArray) {
 	var indexCounter = 0;
 	for (var i = 0; i < widthOfWorld; i++) {
 		for (var j = 0; j < heightOfWorld; j++) {
-			var aliveRedNeighbours = 0;
+		var aliveRedNeighbours = 0;
 			var aliveBlueNeighbours = 0; 
 			var aliveNeighbours = 0;
 			//Alla positioners levande grannar behöver beräknas, oavsett om levande eller död. Beräkningen av antalet levande grannar utförs först och sedan kontrolleras om positionen i fråga är levande eller död. 
